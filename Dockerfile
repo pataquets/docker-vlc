@@ -1,9 +1,9 @@
-FROM pataquets/ubuntu:xenial
+FROM pataquets/vlc-nox:xenial
 
 RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
-    apt-get install -y vlc-nox \
+    apt-get install -y vlc \
   && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/
