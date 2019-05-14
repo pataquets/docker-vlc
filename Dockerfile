@@ -1,4 +1,4 @@
-FROM pataquets/vlc-nox:xenial
+FROM pataquets/vlc-nox:bionic
 
 RUN \
   apt-get update && \
