@@ -1,4 +1,4 @@
-FROM pataquets/vlc-nox:bionic
+FROM pataquets/vlc-nox:focal
 
 RUN \
   apt-get update && \
